@@ -2,9 +2,7 @@
 import { useNewConfig } from "./hooks/useNewConfig";
 
 export const ScollamaContainer = () => {
-    useNewConfig(
-
-    );
+    useNewConfig();
     return (
         <div
             className={"snap-always snap-start relative"}
