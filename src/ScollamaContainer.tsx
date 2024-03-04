@@ -1,4 +1,10 @@
+
+import { useNewConfig } from "./hooks/useNewConfig";
+
 export const ScollamaContainer = () => {
+    useNewConfig(
+
+    );
     return (
         <div
             className={"snap-always snap-start relative"}
@@ -9,7 +15,7 @@ export const ScollamaContainer = () => {
             </div>
 
             <div
-                className={"snap-y snap-mandatory overflow-y-scroll h-screen w-full"}
+                className={"snap-y snap-mandatory overflow-y-scroll h-screen w-full hide-scrollbar"}
             >
                 <div className={"snap-always snap-center h-screen bg-amber-200 flex justify-center items-center text-6xl"}>1</div>
                 <div className={"snap-always snap-center h-screen bg-green-200 flex justify-center items-center text-6xl"}>2</div>
